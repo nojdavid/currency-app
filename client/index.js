@@ -1,5 +1,5 @@
 function submitForm() {
-	console.log('submited form')
+
 	var xhttp = new XMLHttpRequest();
 	xhttp.onreadystatechange = function() {
     if (this.status !== 200) {
