@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width,initial-scale=1,shrink-to-fit=no">
+    <title>Currency App</title>
+    <link rel='stylesheet' type='text/css' href='./index.css'>
+  </head>
+  <body>
+    <header>
+    	Currency App
+    </header>
+    <form>
+		  <div>
+		    <label for="start">Starting Date:</label>
+		    <input type="text" id="start" name="start" placeholder="mm/dd/yyyy">
+		  </div>
+		  <div>
+		    <label for="range">Range:</label>
+		    <input type="text" id="range" name="range" placeholder="5">
+		  </div>
+		  <div class="button">
+			  <button type="button" onclick="submitForm()">Send your time</button>
+			</div>
+		</form>
+		<div id='answer'>Total: Please enter a value</div>
+		<script src="index.js"></script>
+  </body>
+</html>
